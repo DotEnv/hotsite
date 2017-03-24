@@ -10,7 +10,6 @@
 	    
 	    <!-- Styles -->
 	    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-	    <!-- <link href="bower_components/bootstrap/dist/css/bootstrap-responsive.css" rel="stylesheet" /> -->
 	    <link href="custom.css" rel="stylesheet" />
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -44,14 +43,26 @@
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="../navbar/">IN&Iacute;CIO</a></li>
 						<li><a href="../navbar-static-top/">O QUE FAZEMOS</a></li>
-						<li><a href="../navbar-static-top/">CLIENTES</a></li>
+						<li><a href="../navbar-static-top/">SERVI&Ccedil;OS</a></li>
+						<li><a href="../navbar-static-top/">REDES SOCIAIS</a></li>
 						<li class="active"><a href="../navbar-static-top/">CONTATO</a></li>
 					</ul>
 				</div><!--/.nav-collapse -->
 			</div>
 	    </nav>
 
-	    <hr class="featurette-divider">
+<div id="particles-js"></div>
+<hr class="featurette-divider">
+		<div class="jumbotron">
+			
+      		<div class="container">
+        		<h1>Hello, world!</h1>
+        		<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+  			</div>
+		</div>	    
+
+    	<hr class="featurette-divider">
 
 	    <div class="container marketing">
 
@@ -88,7 +99,7 @@
 
 	    	<div class="row">
 	    		<div class="col-lg-12">
-	    			<h2 class="section-title">Clientes</h2>
+	    			<h2 class="section-title">Servi&ccedil;os</h2>
 	    		</div>
 	    	</div>
 
@@ -128,6 +139,22 @@
 
 			<hr class="featurette-divider">
 
+	    	<div class="row">
+	    		<div class="col-lg-12">
+	    			<h2 class="section-title">Redes Sociais</h2>
+	    		</div>
+	    	</div>
+
+			<hr class="featurette-divider">
+
+	    	<div class="row">
+	    		<div class="col-lg-12">
+	    			<h2 class="section-title">Contato</h2>
+	    		</div>
+	    	</div>
+
+			<hr class="featurette-divider">	    	
+
 			<!-- /END THE FEATURETTES -->
 			<!-- FOOTER -->
 			<footer>
@@ -142,9 +169,19 @@
 		</div> <!-- /container -->
 
     	<!-- Javascript -->
+
 	    <script src="bower_components/jquery/dist/jquery.js"></script>
 	    <script src="bower_components/holderjs/holder.js"></script>
+	    <script src="bower_components/particles.js/particles.min.js"></script>
 	    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+	        	<script>
+   //  		particlesJS.load('particles-js', 'particles.json', function() {
+  	// 			console.log('callback - particles.js config loaded');
+			// });
+
+			particlesJS("particles-js", {"particles":{"number":{"value":6,"density":{"enable":true,"value_area":800}},"color":{"value":"#a4c3fa"},"shape":{"type":"circle","stroke":{"width":0,"color":"#fcfcfc"},"polygon":{"nb_sides":3},"image":{"src":"img/github.svg","width":10,"height":10}},"opacity":{"value":0.8996283114607908,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":15,"random":true,"anim":{"enable":true,"speed":10,"size_min":40,"sync":false}},"line_linked":{"enable":false,"distance":200,"color":"#ffffff","opacity":1,"width":2},"move":{"enable":true,"speed":5,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":false});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+    	</script>
 
 	</body>
 </html>

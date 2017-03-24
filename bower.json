@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "holderjs": "^2.9.4"
+    "holderjs": "^2.9.4",
+    "particles.js": "^2.0.0"
   }
 }
