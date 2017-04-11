@@ -6,11 +6,38 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1">	    
     	<meta name="description" content="">
 	    <meta name="author" content="">
-	    <title>DotEnv | Linking technology and marketing</title>
+	    <title>DotEnv | Tecnologia e Marketing</title>
+
+	    <style type="text/css">
+
+			.top-title {
+				margin-top: 275px;
+			}
+
+			@media (min-width: 768px) {
+				.top-title h1 {
+					font-size: 200px !important;
+				}
+			}
+
+			@media (min-width:  481px) {
+				.top-title h1 {
+					font-size: 150px;
+				}
+			}
+
+			.top-title h1, .top-title h2 {
+				color: #fff;
+				margin: 0px;
+				padding: 0px;
+				text-align: center;
+			}
+	    </style>
 	    
 	    <!-- Styles -->
 	    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 	    <link href="custom.css" rel="stylesheet" />
+	    <!-- <link href="particle.css" rel="stylesheet" /> -->
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
@@ -22,7 +49,7 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-		<link rel="shortcut icon" href="../assets/ico/favicon.png">
+		<!-- <link rel="shortcut icon" href="../assets/ico/favicon.png"> -->
 	</head>
 
 	<body>
@@ -37,13 +64,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">DotEnv</a>
+					<a class="navbar-brand" href="#">
+						<img id="logo"/>
+					</a>
 				</div>
 				<div id="navbar" class="navbar-collapse collapse">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a href="../navbar/">IN&Iacute;CIO</a></li>
 						<li><a href="../navbar-static-top/">O QUE FAZEMOS</a></li>
-						<li><a href="../navbar-static-top/">SERVI&Ccedil;OS</a></li>
 						<li><a href="../navbar-static-top/">REDES SOCIAIS</a></li>
 						<li class="active"><a href="../navbar-static-top/">CONTATO</a></li>
 					</ul>
@@ -51,62 +79,71 @@
 			</div>
 	    </nav>
 
-<div id="particles-js"></div>
-<hr class="featurette-divider">
-		<div class="jumbotron">
+	    <div class="top">
+	    	<div id="particles-js"></div>
+	    	<div class="container">
+	    		<div class="row">
+	    			<div class="col-lg-12 top-title">
+	    				<h1 class="title">DotEnv</h1>
+	    				<h2 class="slogan">Tecnologia e Marketing</h2>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+		
+		<!-- <div class="jumbotron">
 			
       		<div class="container">
         		<h1>Hello, world!</h1>
         		<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
         		<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
   			</div>
-		</div>	    
+		</div>	     -->
 
-    	<hr class="featurette-divider">
+    	<hr class="featurette-divider" />
 
 	    <div class="container marketing">
 
+	    	<!--
 	    	<div class="row">
 	    		<div class="col-lg-12">
 	    			<h2 class="section-title">O que fazemos</h2>
 	    		</div>
 	    	</div>
 
-			<!-- Three columns of text below the carousel -->
 			<div class="row">
 				<div class="col-lg-4">
 					<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 					<h2>Heading</h2>
 					<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
 					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div><!-- /.col-lg-4 -->
+				</div>
 				<div class="col-lg-4">
 					<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 					<h2>Heading</h2>
 					<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div><!-- /.col-lg-4 -->
+				</div>
 				<div class="col-lg-4">
 					<img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
 					<h2>Heading</h2>
 					<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 					<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-				</div><!-- /.col-lg-4 -->
-			</div><!-- /.row -->
-	
-			<!-- START THE FEATURETTES -->
-			<hr class="featurette-divider">
+				</div>
+			</div>
+			-->
 
 	    	<div class="row">
 	    		<div class="col-lg-12">
-	    			<h2 class="section-title">Servi&ccedil;os</h2>
+	    			<h2 class="section-title">O QUE FAZEMOS</h2>
 	    		</div>
 	    	</div>
 
 			<div class="row featurette">
 				<div class="col-md-7">
-					<h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+					<h2 class="featurette-heading">Desenvolvimento de sites e sistemas <span class="text-muted">Web & Mobile.</span></h2>
+					<p class="lead">Desenvolvemos desde sites simples, até sistemas de m&eacute;dio e grande porte, lojas virtuais, CRMs customizados e plataformas Web, atendendo necessidades espec&iacute;ficas de seu neg&oacute;cio. Entregamos solu&ccedil;&otilde;es mobile para acompanhar a gest&atilde;o e controlar toda empresa na palma de sua m&atilde;o. 
+					</p>
 				</div>
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -117,8 +154,11 @@
 
 			<div class="row featurette">
 				<div class="col-md-7 col-md-push-5">
-					<h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+					<h2 class="featurette-heading">Solu&ccedil;&otilde;es distribu&iacute;das<span class="text-muted"> API REST.</span></h2>
+					<p class="lead">
+						Deseja expandir seu neg&oacute;cio mas n&atilde;o sabe por onde come&ccedil;ar?
+						Entregamos aplica&ccedil;&otilde;es distribu&iacute;das e integradas REST, centralizando todos os dados de sua empresa em uma &uacute;nica plataforma, aumentando a integridade e confiabilidade das informa&ccedil;&otilde;es armazenadas. Enquanto isso, voc&ecirc; pode se concentrar apenas na gest&atilde;o de sua empresa.
+					</p>
 				</div>
 				<div class="col-md-5 col-md-pull-7">
 					<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -129,8 +169,10 @@
 
 			<div class="row featurette">
 				<div class="col-md-7">
-					<h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+					<h2 class="featurette-heading">Consultoria de TI. <span class="text-muted">Estrat&eacute;gia de neg&oacute;cio.</span></h2>
+					<p class="lead">Sua empresa est&aacute; crescendo e precisa informatizar? Automatizamos todos os processos manuais e repetitivos, facilitando o dia-a-dia de seus colaboradores.
+					Precisa aumentar as vendas da sua empresa atrav&eacute;s da internet? Oferecemos solu&ccedil;&otilde;es tecnol&oacute;gicas que ajudar&atilde;o reduzir custos e aumentar o faturamento, atrav&eacute;s de estrat&eacute;gias de conte&uacute;do e campanhas de vendas.
+					</p>
 				</div>
 				<div class="col-md-5">
 					<img class="featurette-image img-responsive center-block" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
@@ -143,6 +185,25 @@
 	    		<div class="col-lg-12">
 	    			<h2 class="section-title">Redes Sociais</h2>
 	    		</div>
+
+	      		<div class="row social">
+	      			
+	      			<div class="col-lg-4">
+	      				<a href="https://br.linkedin.com/in/tperrelli" target="_blank" onclick="_gaq.push(['_trackEvent', 'Perfil', 'Linkedin', 'Linkedin']);"><img src="img/github-ico.png" alt="DotEnv Github"></a>
+	      			</div>
+	      			<div class="col-lg-4">
+	      				<a href="https://br.linkedin.com/in/tperrelli" target="_blank" onclick="_gaq.push(['_trackEvent', 'Perfil', 'Linkedin', 'Linkedin']);"><img src="img/linkedin-ico.png" alt="DotEnv Linkedin"></a>
+	      			</div>
+	      			<div class="col-lg-4">
+						<a href="https://www.fb.com/tiago.perrelli" target="_blank" onclick="_gaq.push(['_trackEvent', 'Perfil', 'Facebook', 'Facebook']);"><img src="img/facebook-ico.png" alt="DotEnv Facebook"></a>
+	      			</div>
+	      			<!--
+	      			<div class="col-lg-4">
+						<a href="https://www.instagram.com/tiagoperrelli" target="_blank" onclick="_gaq.push(['_trackEvent', 'Perfil', 'Instagram', 'Instagram']);"><img src="img/instagram-ico.png" alt="DotEnv Instagram"></a>
+	      			</div>
+	      			-->
+	   	      		
+	      		</div>	    		
 	    	</div>
 
 			<hr class="featurette-divider">
@@ -150,6 +211,12 @@
 	    	<div class="row">
 	    		<div class="col-lg-12">
 	    			<h2 class="section-title">Contato</h2>
+		    		<p class="lead">
+	    				Dúvidas, consultoria, parceria ou orçamento? Caso deseje criar site simples, sistemas de gerenciamento ou até mesmo um e-commerce complexo, podemos conversar a respeito.
+    				</p>
+    				<p class="lead">
+    					Se você tem muita demanda de freelance, precisa de uma ajuda, deseja desenvolver um sistema de grande porte ou uma 	API mas não sabe por onde começar, vamos conversar um pouco. Quem sabe possamos chegar num acordo.
+    				</p>
 	    		</div>
 	    	</div>
 
@@ -159,13 +226,8 @@
 			<!-- FOOTER -->
 			<footer>
 				<p class="pull-right"><a href="#">Voltar ao topo</a></p>
-				<p>&copy; 2017 Dotenv - Todos os direitos reservados</p>
+				<p>&copy; 2017 DotEnv - Todos os direitos reservados</p>
 			</footer>
-
-
-
-
-
 		</div> <!-- /container -->
 
     	<!-- Javascript -->
@@ -175,12 +237,8 @@
 	    <script src="bower_components/particles.js/particles.min.js"></script>
 	    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 
-	        	<script>
-   //  		particlesJS.load('particles-js', 'particles.json', function() {
-  	// 			console.log('callback - particles.js config loaded');
-			// });
-
-			particlesJS("particles-js", {"particles":{"number":{"value":6,"density":{"enable":true,"value_area":800}},"color":{"value":"#a4c3fa"},"shape":{"type":"circle","stroke":{"width":0,"color":"#fcfcfc"},"polygon":{"nb_sides":3},"image":{"src":"img/github.svg","width":10,"height":10}},"opacity":{"value":0.8996283114607908,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":15,"random":true,"anim":{"enable":true,"speed":10,"size_min":40,"sync":false}},"line_linked":{"enable":false,"distance":200,"color":"#ffffff","opacity":1,"width":2},"move":{"enable":true,"speed":5,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":false});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+    	<script>
+    		particlesJS("particles-js", {"particles":{"number":{"value":6,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000"},"polygon":{"nb_sides":6},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.3,"random":true,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":10,"random":false,"anim":{"enable":true,"speed":10,"size_min":40,"sync":false}},"line_linked":{"enable":false,"distance":200,"color":"#ffffff","opacity":1,"width":2},"move":{"enable":true,"speed":8,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
     	</script>
 
 	</body>
