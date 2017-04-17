@@ -1,0 +1,4 @@
+User-agent: *
+
+# Desabilita qualquer busca interna no site
+Disallow: /*/*?s=*
