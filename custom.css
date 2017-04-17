@@ -23,6 +23,10 @@ canvas {
   position: relative;
 }
 
+#particles-js2 {
+  height: 820px;
+}
+
 .top .container {
   top: 0px;
   z-index: 0;
