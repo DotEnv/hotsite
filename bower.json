@@ -1,5 +1,5 @@
 {
-  "name": "DotEnv",
+  "name": "dotenv",
   "authors": [
     "Tiago Perrelli <tiagoyg@gmail.com>"
   ],
@@ -19,7 +19,8 @@
   ],
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "holderjs": "^2.9.4",
-    "particles.js": "^2.0.0"
+    "particles.js": "^2.0.0",
+    "jQuery.stickyNav": "sticky-nav#*",
+    "components-font-awesome": "^4.7.0"
   }
 }

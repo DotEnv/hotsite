@@ -1,0 +1,46 @@
+{
+  "name": "jQuery.stickyNav",
+  "description": "A jQuery plugin make the navbar sticky, smart anchor link highlighting, smooth scrolling. Simple and powerful.",
+  "categories": [
+    "UI",
+    "DOM"
+  ],
+  "author": {
+    "name": "Zhihao CHEN"
+  },
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenzhihao/sticky-Nav.git"
+  },
+  "bugs": {
+    "web": "https://github.com/chenzhihao/sticky-Nav/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://jquery.com/blob/master/MIT-LICENSE.txt"
+    },
+    {
+      "type": "GPL",
+      "url": "http://jquery.com/blob/master/GPL-LICENSE.txt"
+    }
+  ],
+  "github": "https://github.com/chenzhihao/sticky-Nav.git",
+  "main": "jquery.stickyNav.js",
+  "dependencies": {
+    "jquery": null
+  },
+  "ignore": [],
+  "homepage": "https://github.com/chenzhihao/sticky-Nav",
+  "_release": "80712893cd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "80712893cd4dac85540ccc327073db332328db19"
+  },
+  "_source": "https://github.com/chenzhihao/sticky-Nav.git",
+  "_target": "*",
+  "_originalSource": "sticky-nav",
+  "_direct": true
+}
