@@ -24,7 +24,7 @@ canvas {
 }
 
 #particles-js2 {
-  height: 820px;
+  height: 600px;
 }
 
 .top .container {
@@ -75,6 +75,12 @@ canvas {
 @media (min-width:  481px) {
   .top-title h1 {
     font-size: 150px;
+  }
+  canvas {
+    height: 400px !important;
+  }
+  #particles-js2 {
+    height: 820px;
   }
 }
 /** End Customization **/
