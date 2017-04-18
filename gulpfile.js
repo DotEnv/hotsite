@@ -2,7 +2,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var minify = require('gulp-minify-css');
 
-gulp.task('default', ['css', 'fonts']);
+gulp.task('default', ['css', 'fonts', 'js']);
 
 gulp.task('css', function() {
 
@@ -40,7 +40,7 @@ gulp.task('js', function() {
 
 	var dest = 'js/';
 
-	return gulp.src(cssFiles)
+	return gulp.src(jsFiles)
 		.pipe(concat('main.js'))
 		.pipe(gulp.dest(dest))	
 });
