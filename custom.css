@@ -16,18 +16,18 @@ canvas {
 .particles { height: 175px; }
 
 /** Customization **/
-.top-title { margin-top: 140px; }
+/*.top-title { margin-top: 140px; font-family: 'zwodrei'; }*/
 .top-title h1, .top-title h2 { color: #fff; margin: 0px; padding: 0px; text-align: center; }
 .big-icon { font-size: 200px !important; margin-top: 120px; }
 .med-icon { font-size: 100px !important; margin-top: 120px; }
 .contato { font-size: 16px !important; }
 
 @media (min-width: 768px) {
-  .top-title h1 { font-size: 200px !important; }
+  /*.top-title h1 { font-size: 200px !important; }*/
 }
 
 @media (min-width:  481px) {
-  .top-title h1 { font-size: 150px; }
+  /*.top-title h1 { font-size: 150px; }*/
   /*canvas {
     height: 400px !important;
   }*/
