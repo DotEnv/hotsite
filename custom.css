@@ -35,6 +35,10 @@ canvas {
   #particles-js2 { height: 820px; }
   /*.particles { height: 550px; }*/
   /*.top-title { margin-top: 275px; }*/
+
+  .particles {
+    display: none;
+  }
 }
 /** End Customization **/
 
