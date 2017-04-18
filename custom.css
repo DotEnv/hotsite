@@ -24,7 +24,7 @@ canvas {
 }
 
 #particles-js2 {
-  height: 600px;
+  height: 300px;
 }
 
 .top .container {
@@ -42,7 +42,7 @@ canvas {
 }
 
 .top-title {
-  margin-top: 275px;
+  margin-top: 140px;
   font-family: 'zwodrei'
 }
 
@@ -81,6 +81,9 @@ canvas {
   }
   #particles-js2 {
     height: 820px;
+  }
+  .top-title {
+    margin-top: 275px;
   }
 }
 /** End Customization **/
