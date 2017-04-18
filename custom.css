@@ -8,11 +8,11 @@
 }
 
 /** Particles **/
-
+/*
 canvas {
   height: 820px !important;
   width: 1901px !important;
-}
+}*/
 
 /** Top Content **/
 
@@ -76,9 +76,9 @@ canvas {
   .top-title h1 {
     font-size: 150px;
   }
-  canvas {
+  /*canvas {
     height: 400px !important;
-  }
+  }*/
   #particles-js2 {
     height: 820px;
   }
