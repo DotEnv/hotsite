@@ -1,7 +1,7 @@
 /** Logo **/
 
 #logo {
-  content: url(img/logo-transparent.png);
+  content: url(../img/logo-transparent.png);
   background-repeat: no-repeat;
   margin: -8px;
   height: 35px;
@@ -38,7 +38,7 @@ canvas {
 /** Customization **/
 @font-face {
   font-family: 'zwodrei';
-  src: url('fonts/zwodrei_bold.ttf');
+  src: url('../fonts/zwodrei_bold.ttf');
 }
 
 .top-title {
