@@ -12,6 +12,7 @@ canvas {
 .top { margin-top: 0px; overflow: hidden; background-color: #4b6ca7; position: relative; }
 .top .container { top: 0px; z-index: 0; width: 100%; height: 100%; position: absolute; }
 #particles-js2 { height: 400px; }
+#particles-js3 { height: 400px; }
 
 /** Customization **/
 @font-face { font-family: 'zwodrei'; src: url('../fonts/zwodrei_bold.ttf'); }
@@ -32,6 +33,7 @@ canvas {
     height: 400px !important;
   }*/
   #particles-js2 { height: 820px; }
+  #particles-js3 { height: 550px; }
   .top-title { margin-top: 275px; }
 }
 /** End Customization **/
