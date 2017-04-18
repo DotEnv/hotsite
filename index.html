@@ -89,6 +89,7 @@
 	    	</div>
 	    </div>
 	    -->
+
 	    <div class="top" id="inicio">
 	    	<div class="particles">
 				<div class="top-title">
@@ -288,7 +289,11 @@
 		</div> <!-- /container -->
 
 		<!-- Styles -->
-	    <link href="css/main.css" rel="stylesheet" />
+	    <!-- <link href="css/main.css" type="text/css" rel="stylesheet" /> -->
+
+	    <noscript id="deferred-styles">
+			<link rel="stylesheet" type="text/css" href="css/main.css" />
+	    </noscript>
 
     	<!-- Javascript -->
 	    <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->
@@ -298,6 +303,20 @@
 	    <script type="text/javascript" src="js/main.js"></script>
 
 	    <script type="text/javascript">
+
+	    	//
+		      var loadDeferredStyles = function() {
+		        var addStylesNode = document.getElementById("deferred-styles");
+		        var replacement = document.createElement("div");
+		        replacement.innerHTML = addStylesNode.textContent;
+		        document.body.appendChild(replacement)
+		        addStylesNode.parentElement.removeChild(addStylesNode);
+		      };
+		      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+		          webkitRequestAnimationFrame || msRequestAnimationFrame;
+		      if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+		      else window.addEventListener('load', loadDeferredStyles);
+	    	//
 
 	    	/*
 	    	var width = 1901;
