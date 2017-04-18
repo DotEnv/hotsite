@@ -13,7 +13,7 @@ canvas {
 .top { margin-top: 0px; overflow: hidden; background-color: #4b6ca7; position: relative; }
 .top .container { top: 0px; z-index: 0; width: 100%; height: 100%; position: absolute; }
 #particles-js2 { height: 400px; }
-.particles { height: 400px; }
+.particles { height: 175px; }
 
 /** Customization **/
 .top-title { margin-top: 140px; font-family: 'zwodrei'; }
@@ -32,7 +32,7 @@ canvas {
     height: 400px !important;
   }*/
   #particles-js2 { height: 820px; }
-  .particles { height: 550px; }
+  .particles { height: 525px; }
   .top-title { margin-top: 275px; }
 }
 /** End Customization **/
